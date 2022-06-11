@@ -1,0 +1,72 @@
+/*
+* @file box_model.css
+* @author KUSHAGRA JAISWAL 
+* @date 2022-02-22
+* @copyright Copyright (c) 2022
+*/
+
+/* External css file for box_model.html*/
+
+body{
+    background-color: #333;
+    color: white;
+}
+/* this will change the backgroud color to grey and
+color of the text will be white. */
+
+#heading{
+    text-align: center;
+    color:aquamarine;
+    font-size: 35px;
+}
+/* this will change the color of heading 1,
+increase the font size and
+moves it to the center */
+
+.subheading{
+    color: rgb(224, 12, 58);
+    font-size: 32px;
+}
+/* this will change the color of heading 2 and 
+increase the font size */
+
+header{
+    background-color: white;
+    color: #333;
+    width: 100px;
+}
+/* this will change backgroud color to white,
+color of the text will be grey and
+width of the box will be 100px. */
+
+.main1{
+    background-color: rgb(44, 2, 63);
+    color:green;
+    width: 250px;
+}
+/* this will change the backgroud color to dark purple,
+color of the text will be green and
+width of the box will be 250px. */
+
+.promotion{
+    background-color: rgb(43, 226, 150);
+    color: rgb(9, 65, 3);
+   font-style: italic;
+   width: 350px;
+
+}
+/* this will change the color of all paragraphs,
+backgroubd color will be light green,
+width of the box will be 350px and
+style of the text will be italic. */
+
+.main2{
+    background-color: rgb(44, 2, 63);
+    color:green;
+    width: 250px;
+    height:200px;
+}
+/* this will change the backgroud color to dark purple,
+color of the text will be green,
+width of the box will be 250px and
+height of the box will be 200px. */

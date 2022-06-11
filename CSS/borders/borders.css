@@ -1,0 +1,160 @@
+/*
+* @file borders.css
+* @author KUSHAGRA JAISWAL 
+* @date 2022-02-22
+* @copyright Copyright (c) 2022
+*/
+
+/* External css file for borders.html*/
+
+body {
+  background-color: black;
+  color: white;
+}
+/* this will change the backgroud color to black and
+color of the text will be white. */
+
+.heading {
+  text-align: center;
+  color: rgb(2, 243, 22);
+  font-size: 35px;
+}
+/* this will change the color of heading 1,
+increase the font size and
+moves it to the center */
+
+.subheading {
+  color: rgb(224, 12, 58);
+  font-size: 32px;
+}
+/* this will change the color of heading 2 and 
+increase the font size */
+
+.border {
+  background-color: #333;
+  color: rgb(10, 243, 22);
+  width: 250px;
+}
+/* this will change backgroud color to grey,
+color of the text will be light green and
+width of the box will be 250px. */
+
+.border-style-solid {
+  background-color: #333;
+  color: rgb(10, 243, 22);
+  width: 250px;
+  border-color: yellow;
+  border-style: solid;
+  border-width: 20px;
+}
+/* this will change backgroud color to grey,
+color of the text will be light green,
+width of the box will be 250px and
+border will be 20px solid yellow */
+
+.border-style-dotted {
+  background-color: #333;
+  color: rgb(10, 243, 22);
+  width: 250px;
+  border-color: yellow;
+  border-style: dotted;
+  border-width: 20px;
+}
+/* this will change backgroud color to grey,
+color of the text will be light green,
+width of the box will be 250px and
+border will be 20px dotted yellow */
+
+.border-style-dashed {
+  background-color: #333;
+  color: rgb(10, 243, 22);
+  width: 250px;
+  border-color: yellow;
+  border-style: dashed;
+  border-width: 20px;
+}
+/* this will change backgroud color to grey,
+color of the text will be light green,
+width of the box will be 250px and
+border will be 20px dashed yellow */
+
+.border-style-double {
+  background-color: #333;
+  color: rgb(10, 243, 22);
+  width: 250px;
+  border-color: yellow;
+  border-style: double;
+  border-width: 20px;
+}
+/* this will change backgroud color to grey,
+color of the text will be light green,
+width of the box will be 250px and
+border will be 20px double yellow */
+
+.border-style-groove {
+  background-color: #333;
+  color: rgb(10, 243, 22);
+  width: 250px;
+  border-color: yellow;
+  border-style: groove;
+  border-width: 20px;
+}
+/* this will change backgroud color to grey,
+color of the text will be light green,
+width of the box will be 250px and
+border will be 20px groove yellow */
+
+.border-style-ridge {
+  background-color: #333;
+  color: rgb(10, 243, 22);
+  width: 250px;
+  border-color: yellow;
+  border-style: ridge;
+  border-width: 20px;
+}
+/* this will change backgroud color to grey,
+color of the text will be light green,
+width of the box will be 250px and
+border will be 20px ridge yellow */
+
+.border-style-outset {
+  background-color: #333;
+  color: rgb(10, 243, 22);
+  width: 250px;
+  border-color: yellow;
+  border-style: outset;
+  border-width: 20px;
+}
+/* this will change backgroud color to grey,
+color of the text will be light green,
+width of the box will be 250px and
+border will be 20px outset yellow */
+
+.border-sh{
+    background-color: #333;
+    color: rgb(10, 243, 22);
+    width: 250px;
+    border: 20px solid blue;
+    border-right:dashed red 20px;
+    border-bottom-color: pink;
+    border-left:dotted 20px;
+  }
+  /* this will change backgroud color to grey,
+  color of the text will be light green,
+  width of the box will be 250px and
+  using shorthand mathod in border */
+
+.promotion {
+  background-color: rgb(65, 14, 1);
+  color: rgb(32, 240, 9);
+  font-style: italic;
+  width: 350px;
+  border-color: red;
+  border-style: dotted;
+  border-width: 20px;
+}
+/* this will change the color of all paragraphs,
+backgroubd color will be light green,
+width of the box will be 350px,
+style of the text will be italic and
+border will be 20px dotted yellow */

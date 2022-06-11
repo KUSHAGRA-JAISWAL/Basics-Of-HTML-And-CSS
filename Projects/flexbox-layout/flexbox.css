@@ -1,0 +1,88 @@
+/*
+* @file flexbox.css
+* @author KUSHAGRA JAISWAL 
+* @date 2022-05-9
+* @copyright Copyright (c) 2022
+*/
+
+/* External css file for flexbox.html*/
+
+body{
+    margin: 0;
+    font-size: 25px;
+}
+/* this will set margin 0 from all sides
+and font size of the page will be 25px. */
+
+h1{
+    font-size: 48px;
+    margin: 0;
+}
+/* this will set margin 0 from all sides
+and font size of the h1 will be 48px. */
+
+h2{
+    font-size: 36px;
+}
+/* it will change the font size of h2 to 36px */
+
+p{
+    font-size: 18px;
+}
+/* it will set font size to 18px. */
+
+header{
+    background-color: #588c94;
+    color: white;
+    text-align: center;
+    padding: 50px 0;
+}
+/* this will change the backgroud color of header,
+change the color of text to white,
+all the text will be in the center and
+padding from top and bottom will be 50px. */
+
+.intro{
+    width: 700px;
+    margin: 100px auto;
+    text-align: center;
+    border: 2px solid purple;
+}
+/* this will make the size of intro to 700px,
+all the text will be centered,
+border will be 2px,
+and margin from left and right will be auto
+top and bottom will be 1oopx. */
+
+.my-skills{
+    background-color: #1D3C41;
+    color: white;
+    padding: 30px 0;
+    border: 5px solid orange;
+}
+/* this will change the background color,
+border will be 5 px,
+change the color of the text and
+padding from top and bottom will be 30px. */
+
+.columns{
+    width: 750px;
+    display: flex;
+    margin: 0 auto;
+    border: 1px solid yellow;
+}
+/* this will change the width of the columns,
+this will bring the block of text side by side,
+margin from left and right will be auto and
+boderder will be 1px. */
+
+.column{
+    margin: 5px;
+    border: 2px solid skyblue;
+    text-align: center;
+    padding: 2px;
+}
+/* this will give the space between side by side texts,
+give a border of 2px,
+all the text will be centered and
+padding from all side will be 2px. */

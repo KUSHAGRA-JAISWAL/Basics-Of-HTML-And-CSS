@@ -1,0 +1,188 @@
+<!--
+* @file tables.html
+* @author KUSHAGRA JAISWAL 
+* @date 2022-02-16
+* @copyright Copyright (c) 2022
+-->
+
+<!-- Program to show the concepts of Tables on the webpage in HTML. -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</title>
+</head>
+
+<body>
+    <h1 style="text-align: center;">concepts of Tables!</h1>
+    <!-- this will show my text in the center of the web page. -->
+
+    <hr>
+    <!-- using horizental line space -->
+
+    <h2><u>Simple Table Without Border</u></h2>
+    <!-- using heading 2 and <u> tag to underline  -->
+
+    <table>
+        <!-- using <table>tag we can have tables on our web page -->
+
+        <tr>
+            <!-- here <tr>tag contains the row of the table -->
+
+            <td>One</td>
+            <!-- here <td> tag contains the column of the table. -->
+
+        </tr>
+    </table>
+
+    <hr>
+    <!-- using horizental line space -->
+
+    <h2><u>Adding More Column's to The Table</u></h2>
+    <!-- using heading 2 and <u> tag to underline  -->
+
+
+
+    <table>
+        <tr>
+            <td>One</td>
+            <td>Two</td>
+            <td>Three</td>
+            <!-- using more <td> tag inside <tr> tag we can have more column's  -->
+        </tr>
+    </table>
+
+    <hr>
+    <!-- using horizental line space -->
+
+    <h2><u>Adding More Row's to The Table</u></h2>
+    <!-- using heading 2 and <u> tag to underline  -->
+
+    <table>
+        <tr>
+            <td>One</td>
+            <td>Two</td>
+            <td>Three</td>
+        </tr>
+        <tr>
+            <td>Four</td>
+            <td>Five</td>
+            <td>Six</td>
+        </tr>
+        <!-- adding more <tr>tags inside <table>tag we can have more rows -->
+    </table>
+
+    <hr>
+    <!-- using horizental line space -->
+
+    <h2><u>Adding Heading's to The Table</u></h2>
+    <!-- using heading 2 and <u> tag to underline  -->
+
+    <table>
+        <tr>
+            <th>num1</th>
+            <th>num2</th>
+            <th>num3</th>
+            <!-- using <th> tag we can have a header of our table, heading  -->
+        </tr>
+        <tr>
+            <td>One</td>
+            <td>Two</td>
+            <td>Three</td>
+        </tr>
+        <tr>
+            <td>Four</td>
+            <td>Five</td>
+            <td>Six</td>
+        </tr>
+    </table>
+
+    <hr>
+    <!-- using horizental line space -->
+
+    <h2><u>Adding Caption to The Table</u></h2>
+    <!-- using heading 2 and <u> tag to underline  -->
+
+    <table>
+        <caption>
+            <h3>List of Numbers</h3>
+        </caption>
+        <!-- using <caption> tag we can have caption at the top of our table -->
+        <tr>
+            <th>num1</th>
+            <th>num2</th>
+            <th>num3</th>
+        </tr>
+        <tr>
+            <td>One</td>
+            <td>Two</td>
+            <td>Three</td>
+        </tr>
+        <tr>
+            <td>Four</td>
+            <td>Five</td>
+            <td>Six</td>
+        </tr>
+    </table>
+
+    <hr>
+    <!-- using horizental line space -->
+
+    <h2><u>ColSpan in The Table</u></h2>
+    <!-- using heading 2 and <u> tag to underline  -->
+
+    <table>
+        <caption>
+            <h3>List of Numbers</h3>
+        </caption>
+        <tr>
+            <th>num1</th>
+            <th>num2</th>
+            <th>num3</th>
+        </tr>
+        <tr>
+            <td colspan="2">One</td>
+            <!-- using "colspan" property in <td> tag we can have the spaces of two column in one -->
+            <td>Two</td>
+            <td>Three</td>
+        </tr>
+        <tr>
+            <td>Four</td>
+            <td>Five</td>
+            <td>Six</td>
+        </tr>
+    </table>
+
+    <hr>
+    <!-- using horizental line space -->
+
+    <h2><u>RowSpan in The Table</u></h2>
+    <!-- using heading 2 and <u> tag to underline  -->
+
+    <table>
+        <caption>
+            <h3>List of Numbers</h3>
+        </caption>
+        <tr>
+            <th>num1</th>
+            <th>num2</th>
+            <th>num3</th>
+        </tr>
+        <tr>
+            <td rowspan="2">One</td>
+            <!-- using "rowspan" property in <td> tag we can have the spaces of two Row's in one -->
+            <td>Two</td>
+            <td>Three</td>
+        </tr>
+        <tr>
+            <td>Four</td>
+            <td>Five</td>
+            <td>Six</td>
+        </tr>
+    </table>
+</body>
+
+</html>

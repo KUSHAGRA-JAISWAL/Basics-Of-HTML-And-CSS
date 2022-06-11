@@ -1,0 +1,71 @@
+/*
+* @file same_external_css.css
+* @author KUSHAGRA JAISWAL 
+* @date 2022-02-20
+* @copyright Copyright (c) 2022
+*/
+
+/* External css file for external_css1.html and external_css2.html */
+
+body{
+    background-color:#333;
+    color:f4f4f4;
+}
+/* this will change the whole background of the page and
+ the text color */
+
+h1{
+    color: aquamarine;
+    font-size: 32px;
+    text-align: center;
+}
+/* this will change the color of heading 1,
+increase the font size and
+moves it to the center */
+
+h2{
+    color: green;
+    font-size: 28px;
+}
+/* this will change the color of heading 2 and 
+increase the font size */
+
+h3{
+    color: orangered;
+    font-size: 24px;
+}
+/* this will change the color of heading 3 and 
+increase the font size */
+
+a{
+    color: cyan;
+}
+/* this will change the color of all the anker tags */
+
+ol{
+    color: aliceblue;
+}
+/* this will change the color of order lists */
+
+ul{
+    color: white;
+}
+/* this will change the color of unorderd lists */
+
+li{
+    margin-top: 15px;
+    font-size: 20px;
+    font-style: italic;
+}
+/* this will change the margin between all lists,
+ increase there font size and
+ style of the text will be italic. */
+
+ p{
+     color: cornsilk;
+    font: 18px;
+    font-style: italic;
+ }
+ /* this will change the color of all paragraphs,
+ increase there font size and
+ style of the text will be italic.*/

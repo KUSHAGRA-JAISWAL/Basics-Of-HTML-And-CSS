@@ -1,0 +1,64 @@
+<!--
+* @file videos.html
+* @author KUSHAGRA JAISWAL 
+* @date 2022-02-15
+* @copyright Copyright (c) 2022
+-->
+
+<!-- Program to show the concepts of adding videos on the webpage in HTML. -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adding Videos</title>
+</head>
+
+<body>
+
+    <h1 style="text-align: center;">Adding Videos to Page!</h1>
+    <!-- this will show my text in the center of the web page. -->
+    
+    <hr>
+    <!-- using hr for a horizential line space -->
+
+    <h2>Default Without control</h2>
+    <!-- using heading 2. -->
+
+    <video src="media/CGI Animation Of Space.mp4" width="300" height="150"></video>
+    <!-- using <video> tag we can add videos to our web page, we just have to add a link in "src"(source)
+    but we can't control it and the video will not be played, -->
+
+    <hr>
+
+    <h2>With control</h2>
+    <!-- using heading 2. -->
+
+    <video src="media/CGI Animation Of Space.mp4" width="300" height="150" controls></video>
+    <!-- by just writting "controls" inside the video tag it will work properly on the web. -->
+
+    <hr>
+
+    <h2>Adding thumbnail</h2>
+    <!-- using heading 2. -->
+
+    <video src="media/CGI Animation Of Space.mp4" poster="media/smoke.jpeg" width="300" height="150" controls></video>
+    <!-- by writting "poster" inside the video tag and adding image link inside "poster" we can have our custom thumbnail.-->
+
+    <hr>
+
+    <h2>Adding Youtube Videos</h2>
+    <!-- using heading 2. -->
+
+    <iframe width="424" height="238" src="https://www.youtube.com/embed/kpuaOkQAKmk" 
+    title="YouTube video player" frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen>
+    </iframe>
+    <!-- using <iframe>tags we can add youtube videos on our webpage, 
+    you can copy the video link in embeded form and past it on the web 
+    know your video is ready to play on the web. -->
+
+</html>

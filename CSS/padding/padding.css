@@ -1,0 +1,118 @@
+/*
+* @file padding.css
+* @author KUSHAGRA JAISWAL 
+* @date 2022-02-22
+* @copyright Copyright (c) 2022
+*/
+
+/* External css file for padding.html*/
+
+body{
+    background-color: rgb(105, 0, 100);
+    color: white;
+}
+/* this will change the backgroud color to dark pink and
+color of the text will be white. */
+
+.heading{
+    text-align: center;
+    color:rgb(2, 243, 211);
+    font-size: 35px;
+}
+/* this will change the color of heading 1,
+increase the font size and
+moves it to the center */
+
+.subheading{
+    color: rgb(224, 12, 58);
+    font-size: 32px;
+}
+/* this will change the color of heading 2 and 
+increase the font size */
+
+.padding{
+    background-color:#333;
+    color: rgb(10, 243, 22);
+    width: 250px;
+}
+/* this will change backgroud color to grey,
+color of the text will be light green and
+width of the box will be 250px. */
+
+.padding-top{
+    background-color:#333;
+    color: rgb(10, 243, 22);
+    width: 250px;
+    padding-top: 300px;
+}
+/* this will change backgroud color to grey,
+color of the text will be light green,
+width of the box will be 250px and
+padding-top will be 300px */
+
+.padding-bottom{
+    background-color:#333;
+    color: rgb(10, 243, 22);
+    width: 250px;
+    padding-bottom: 300px;
+}
+/* this will change backgroud color to grey,
+color of the text will be light green,
+width of the box will be 250px and
+padding-bottom will be 300px */
+
+.padding-left{
+    background-color:#333;
+    color: rgb(10, 243, 22);
+    width: 250px;
+    padding-left: 300px;
+}
+/* this will change backgroud color to grey,
+color of the text will be light green,
+width of the box will be 250px and
+padding-left will be 300px */
+
+.padding-right{
+    background-color:#333;
+    color: rgb(10, 243, 22);
+    width: 250px;
+    padding-right:300px;
+}
+/* this will change backgroud color to grey,
+color of the text will be light green,
+width of the box will be 250px and
+padding-right will be 300px */
+
+.padding-sh{
+    background-color:#333;
+    color: rgb(10, 243, 22);
+    width: 300px;
+    padding: 100px 200px 300px 400px;
+}
+/* this will change backgroud color to grey,
+color of the text will be light green,
+width of the box will be 300px and
+padding will be affected from all sides. */
+
+.padding-all{
+    background-color:#333;
+    color: rgb(10, 243, 22);
+    width: 250px;
+    padding:300px;
+}
+/* this will change backgroud color to grey,
+color of the text will be light green,
+width of the box will be 250px and
+padding will be affected from all sides. */
+
+.promotion{
+    background-color: rgb(65, 14, 1);
+    color: rgb(32, 240, 9);
+   font-style: italic;
+   width: 350px;
+
+}
+/* this will change the color of all paragraphs,
+backgroubd color will be light green,
+width of the box will be 350px and
+style of the text will be italic. */

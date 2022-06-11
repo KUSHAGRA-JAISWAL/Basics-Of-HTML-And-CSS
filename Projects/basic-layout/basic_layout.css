@@ -1,0 +1,50 @@
+/*
+* @file borders.css
+* @author KUSHAGRA JAISWAL 
+* @date 2022-02-22
+* @copyright Copyright (c) 2022
+*/
+
+/* External css file for box_model.html*/
+body{
+    margin: 0;
+}
+/* this will make the margin 0 from all sides. */
+
+header {
+    text-align: center;
+    background-color: #4a4a4a;
+    color: blanchedalmond;
+    padding: 25px 0;
+    margin-bottom: 25px;
+  }
+  /* this will change the color and background of header,
+  increase padding from top and bottom and margin from bottom.*/
+
+  main{
+    width: 1000px;
+    background-color: #e4e4e4;
+    padding: 25px;
+    border: solid red 5px;
+    margin: 0 auto;
+  }
+  /* this will change the width of the main,
+  change the backgroud color of the main,
+  change the padding from all sides,
+  add the border and 
+  set margin auto from left and right. */
+
+  .dinoimg{
+      width: 100%;
+  }
+  /* this will change the size of the dinosaurs image */
+
+  footer{
+      background-color: #4a4a4a;
+      color: blanchedalmond;
+      text-align: center;
+      padding: 25px 0;
+      margin-top: 25px;
+  }
+ /* this will change the color and background of footer,
+ increase padding from top and bottom and margin from top.*/

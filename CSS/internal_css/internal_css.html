@@ -1,0 +1,149 @@
+<!--
+* @file internal_css.html
+* @author KUSHAGRA JAISWAL 
+* @date 2022-02-18
+* @copyright Copyright (c) 2022
+-->
+
+<!-- Program to show the concepts of using Internal CSS on the webpage -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Internal CSS</title>
+
+    <style>
+        body {
+            background-color: black;
+        }
+
+        /* it will change the vackground color of the page to black */
+
+        h1 {
+            font-size: 50px;
+            text-align: center;
+            color: darkorange;
+        }
+
+        /* it will increalse all <h1> font size to 50px,
+            text color will be darkorange
+        and move all <h1> in center, in our program */
+
+        p {
+            font-size: 24px;
+            color: green;
+            font-style: italic;
+        }
+
+        /* it will change all the <p> fonts size to 24px, 
+        text color to green
+        and style of the text will be italic in our program */
+
+        h2 {
+            background-color: rgba(153, 1, 1, 0.712);
+            color: white;
+        }
+
+        /* it will change all <h2> text color to whilte
+            and backgroud color will be dark red in our program  */
+
+        h3 {
+            color: blueviolet;
+            font-size: 26px;
+            font-style: italic;
+        }
+
+        /* it will change all <h3> text color to blueviolet,
+            font size will be 26px and
+            style of the text will be italic */
+
+        ol {
+            color: red;
+        }
+
+        /* it will change all the <ol> text color to red */
+    </style>
+    <!-- this is <style> tag inside this we will write our all css -->
+
+</head>
+
+<body>
+
+    <h1>Concepts of Using Internal CSS!</h1>
+    <!-- this is heading 1 -->
+
+    <p>1. Inline css is annoying when you want to repeat the same changes is multiple places.</p>
+    <!-- this is a paragraph -->
+
+    <p>2. In general, inline css is never used.</p>
+
+    <p>3. we can use a stylesheet, rather then the inline styles, to make more global changes.</p>
+
+    <p>4. we can use internal style sheet that is placed in the head of our pages.</p>
+
+    <h3>
+        <-head->
+    </h3>
+    <!-- thhis is heading 3 -->
+
+    <h3>
+        <-style->
+    </h3>
+
+    <p>CSS Will GO Here</p>
+
+    <h3>
+        <- /style->
+    </h3>
+
+    <h3>
+        <- /head->
+    </h3>
+
+    <h2>Selector</h2>
+    <!-- this is heading 2 -->
+
+    <p>1. If i want to change the whole body of my page i can selsect and change like this:-</p>
+
+    <h3>body {</h3>
+
+    <h3>color : #323232;</h3>
+
+    <h3>}</h3>
+
+    <p>1. Always followed by opeaning curly brace -{.</p>
+
+    <p>2. The property of our element(s) that we wish to change.</p>
+
+    <p>3. The value we are assining to that property.</p>
+
+    <p>4. Dont forget the semi-colon ; at the end.</p>
+
+    <h2>Selecing an element</h2>
+    <!-- this is heading 2 -->
+
+    <p>Selecting an element is very easy.</p>
+
+    <p>1. Write the element without the < -->
+    </p>
+
+    <p>2. Do not include attributes.</p>
+
+    <p>That's it !</p>
+
+    <h3>Some Exxamples are:-</h3>
+
+    <ol>
+        <li>a {.....}</li>
+        <li>p {.....}</li>
+        <li>h2 {.....}</li>
+    </ol>
+    <!-- using order list as <ol> tag -->
+
+
+</body>
+
+</html>

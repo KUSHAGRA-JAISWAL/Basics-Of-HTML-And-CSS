@@ -1,0 +1,65 @@
+/*
+* @file id.css
+* @author KUSHAGRA JAISWAL 
+* @date 2022-02-20
+* @copyright Copyright (c) 2022
+*/
+
+/* External css file for id.html*/
+
+body{
+    background-color:rgb(68, 3, 52);
+    color:f4f4f4;
+}
+/* this will change the whole background of the page and
+ the text color */
+
+#heading{
+    color: rgb(139, 8, 247);
+    font-size: 35px;
+    text-align: center;
+}
+/* this will change the color of heading 1,
+increase the font size and
+moves it to the center */
+
+#subheading{
+    color: rgb(224, 12, 58);
+    font-size: 32px;
+}
+/* this will change the color of heading 2 and 
+increase the font size */
+
+#subheading2{
+    color: rgb(13, 180, 209);
+    font-size: 32px;
+}
+/* this will change the color of heading 2 and 
+increase the font size */
+
+
+a{
+    color: rgb(11, 197, 126);
+}
+/* this will change the color of all the anker tags */
+
+ul{
+    color: rgb(36, 145, 14);
+}
+/* this will change the color of unorderd lists */
+
+li{
+    margin-top: 15px;
+    font-size: 20px;
+    font-style: italic;
+}
+/* this will change the margin between all lists.
+ increase there font size and
+ style of the text will be italic. */
+
+ #promotion{
+     color: rgb(219, 218, 213);
+    font-style: italic;
+ }
+ /* this will change the color of all paragraphs and
+ style of the text will be italic. */
